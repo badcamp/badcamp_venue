@@ -1,0 +1,14 @@
+{
+    "name": "badcamp/badcamp_venue",
+    "description": "Provides Venue content type and related configuration.",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Sean Dietrich",
+            "email": "sean.e.dietrich@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
