@@ -2,27 +2,20 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.venue.body
     - field.field.node.venue.field_location
+    - field.field.node.venue.field_room_number_name
+    - field.field.node.venue.field_venue_image
+    - image.style.thumbnail
     - node.type.venue
   module:
     - geolocation
+    - image
     - path
-    - text
 id: node.venue.default
 targetEntityType: node
 bundle: venue
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 31
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-    third_party_settings: {  }
-    region: content
   created:
     type: datetime_timestamp
     weight: 10
@@ -63,6 +56,22 @@ content:
         gestureHandling: auto
     third_party_settings: {  }
     type: geolocation_googlegeocoder
+    region: content
+  field_room_number_name:
+    weight: 33
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_venue_image:
+    weight: 34
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   path:
     type: path
