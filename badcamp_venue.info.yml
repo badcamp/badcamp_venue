@@ -1,0 +1,14 @@
+name: Venue
+description: 'Provides Venue content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - field
+  - field_permissions
+  - geolocation
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+package: BADCamp
