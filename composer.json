@@ -10,5 +10,8 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "drupal/geolocation": "^1.10",
+        "drupal/field_permissions": "^1.0@beta"
+    }
 }
