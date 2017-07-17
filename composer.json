@@ -13,6 +13,7 @@
     "require": {
         "drupal/geolocation": "1.x-dev",
         "drupal/address": "^1.1",
-        "drupal/field_permissions": "^1.0@beta"
+        "drupal/field_permissions": "^1.0@beta",
+        "drupal/eva": "^1.1"
     }
 }
