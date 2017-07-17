@@ -4,9 +4,6 @@ type: module
 core: 8.x
 dependencies:
   - address
-  - badcamp_event
-  - badcamp_session
-  - badcamp_training
   - datetime_range
   - eva
   - field
