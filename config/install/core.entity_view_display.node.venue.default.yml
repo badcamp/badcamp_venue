@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.venue.body
     - field.field.node.venue.field_location
     - field.field.node.venue.field_room_number_name
     - field.field.node.venue.field_venue_image
@@ -26,7 +27,7 @@ content:
         height: 400px
         width: 100%
         type: SATELLITE
-        zoom: '14'
+        zoom: '18'
         maxZoom: 18
         minZoom: 0
         mapTypeControl: 1
@@ -70,4 +71,10 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+  venue_events_entity_view_1:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
