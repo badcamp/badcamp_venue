@@ -3,6 +3,7 @@ description: 'Provides Venue content type and related configuration. '
 type: module
 core: 8.x
 dependencies:
+  - address
   - badcamp_event
   - badcamp_session
   - badcamp_training
@@ -21,3 +22,4 @@ dependencies:
   - user
   - views
 package: BADCamp
+version: 8.x-1.0
